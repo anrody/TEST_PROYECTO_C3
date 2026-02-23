@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "0001",
+    "titulo": "martillo",
+    "tipo": "construccion",
+    "stock": 12,
+    "condicion": "dañado",
+    "precio_estimado": 5000.0
+  },
+  {
+    "id": "destornillador",
+    "titulo": "8",
+    "tipo": "constuccion",
+    "stock": 13,
+    "condicion": "dañado",
+    "precio_estimado": 5000.0
+  }
+]

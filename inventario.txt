@@ -1,0 +1,2 @@
+0001,martillo,construccion,12,dañado,5000.0
+destornillador,8,constuccion,13,dañado,5000.0

@@ -8,5 +8,40 @@
     "timestamp": "2026-02-20 15:13:56",
     "tipo": "ERROR",
     "descripcion": "Asignación fallida: miembro andres no existe"
+  },
+  {
+    "timestamp": "2026-02-23 15:15:25",
+    "tipo": "ACCION",
+    "descripcion": "Implemento creado: martillo (ID: 0001)"
+  },
+  {
+    "timestamp": "2026-02-23 15:15:47",
+    "tipo": "ACCION",
+    "descripcion": "Implemento eliminado: martillo (ID: 0001)"
+  },
+  {
+    "timestamp": "2026-02-23 15:16:45",
+    "tipo": "ACCION",
+    "descripcion": "Implemento creado: martillo (ID: 0001)"
+  },
+  {
+    "timestamp": "2026-02-23 15:18:35",
+    "tipo": "ACCION",
+    "descripcion": "Implemento marcado como dañado: martillo (ID: 0001)"
+  },
+  {
+    "timestamp": "2026-02-23 15:19:29",
+    "tipo": "ACCION",
+    "descripcion": "Implemento eliminado: martillo (ID: 0001)"
+  },
+  {
+    "timestamp": "2026-02-23 15:23:18",
+    "tipo": "ACCION",
+    "descripcion": "Implemento creado: martillo (ID: 0001)"
+  },
+  {
+    "timestamp": "2026-02-23 15:23:52",
+    "tipo": "ACCION",
+    "descripcion": "Implemento creado: 8 (ID: destornillador)"
   }
 ]

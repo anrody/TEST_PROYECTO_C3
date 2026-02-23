@@ -60,16 +60,17 @@ def generar_reporte():
                     "usuario": nombre_usuario,
                     "herramienta": nombre_herramienta,
                     "cantidad": p["unidades"],
-                    "fecha_inicio": p["fecha_salida"],
-                    "fecha_estimada": p["fecha_retorno"],
-                    "dias_atraso": dias_atraso
+                    "fecha_baja": p["fecha_salida"],
+                   
+                  
                 })
 
                 total_herramientas += p["unidades"]
 
     # ✅ VALIDAR SI NO HAY VENCIDOS
     if not vencidos:
-        print("No existen préstamos vencidos.")
+        print("| id_prestamo |herramienta | fecha_baja | motivo |\n")
+        f.write("|-------------|------------|------------|--------|\n")
         return
 
     # ✅ GENERAR ARCHIVO MARKDOWN
@@ -77,17 +78,17 @@ def generar_reporte():
 
         f.write("# Préstamos Vencidos - Junta Comunal\n\n")
 
-        f.write("| id_prestamo | usuario | herramienta | cantidad | fecha_inicio | fecha_estimada | dias_atraso |\n")
-        f.write("|-------------|---------|-------------|----------|--------------|----------------|-------------|\n")
+        f.write("| id_prestamo |herramienta | fecha_baja | motivo |\n")
+        f.write("|-------------|------------|------------|--------|\n")
 
         for v in vencidos:
-            f.write(f"| {v['id']} | {v['usuario']} | {v['herramienta']} | {v['cantidad']} | {v['fecha_inicio']} | {v['fecha_estimada']} | {v['dias_atraso']} |\n")
+            f.write(f"| {v['id']} | {v['usuario']} | {v['herramienta']} | {v['cantidad']} | {v['fecha_baja']} | {v['motivo']}\n")
 
         f.write("\n")
-        f.write(f"**Total de préstamos vencidos:** {len(vencidos)}\n\n")
+        f.write(f"**deterioro irreparable:** {len(vencidos)}\n\n")
         f.write(f"**Total de herramientas comprometidas:** {total_herramientas}\n")
 
-    print("✅ Archivo prestamos_vencidos.md generado correctamente.")
+    print(" Archivo prestamos_vencidos.md generado correctamente.")
 
 
 # Permite ejecutar el módulo directamente

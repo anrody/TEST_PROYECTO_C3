@@ -1,2 +1,9 @@
 [2026-02-20 15:04:46] [ERROR] Asignación fallida: miembro 0002 no existe
 [2026-02-20 15:13:56] [ERROR] Asignación fallida: miembro andres no existe
+[2026-02-23 15:15:25] [ACCION] Implemento creado: martillo (ID: 0001)
+[2026-02-23 15:15:47] [ACCION] Implemento eliminado: martillo (ID: 0001)
+[2026-02-23 15:16:45] [ACCION] Implemento creado: martillo (ID: 0001)
+[2026-02-23 15:18:35] [ACCION] Implemento marcado como dañado: martillo (ID: 0001)
+[2026-02-23 15:19:29] [ACCION] Implemento eliminado: martillo (ID: 0001)
+[2026-02-23 15:23:18] [ACCION] Implemento creado: martillo (ID: 0001)
+[2026-02-23 15:23:52] [ACCION] Implemento creado: 8 (ID: destornillador)
