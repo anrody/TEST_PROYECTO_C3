@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-02-20 15:04:46",
+    "tipo": "ERROR",
+    "descripcion": "Asignación fallida: miembro 0002 no existe"
+  },
+  {
+    "timestamp": "2026-02-20 15:13:56",
+    "tipo": "ERROR",
+    "descripcion": "Asignación fallida: miembro andres no existe"
+  }
+]
